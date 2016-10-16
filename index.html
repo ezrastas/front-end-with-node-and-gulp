@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link href="styles/style.min.css" type="text/css" rel="stylesheet">
+  <title>Job Task</title>
+  <script   src="http://code.jquery.com/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="js/script.min.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="header">
+    <div class="logo"><img src="styles/icons/logo_icon.svg" class="img_header_1"> </img>Ипотечный калькулятор</div>
+    <div class="home"><img src="styles/icons/home_icon.svg" class="img_header_2"> </img>Главная</div>
+    <div class="chat"><img src="styles/icons/chat_icon.svg" class="img_header_3"> </img>Вопрос-ответ</div>
+    <div class="user"><img src="styles/icons/user_icon.svg" class="img_header_4"> </img>Username</div>
+  </div>
+
+  <div class="table_title">
+    <h6>Оптимизация кредита: по сумме</h6>
+    <h1>РАСЧЕТ ПЛАТЕЖЕЙ</h1>
+  <div>
+<!--           TABLE             -->
+  <div class="main_table">
+    <table>
+      <tr ><th width="5%">№</th><th width="10%" style="border-right:3px solid #d4d8df">Дата</th><th width="12%">Сумма переплат</th><th width="12%">Остаток задолжности</th>
+      <th width="12%">Основной долг</th><th width="12%">Начисленные проценты</th><th width="12%">Платеж</th><th width="15%"> </th></tr>
+      <tr><td>1</td><td style="border-right:3px solid #d4d8df">01.16</td><td><span class="price">30000 &#8399;</span></td><td><span class="price">3450000 &#8399;</span></td><td><span class="price">10000 &#8399;</span></td><td><span class="price">30000 &#8399;</span></td><td><span class="price">40000 &#8399;</span></td><td>
+          <div id="parent1"><b><div class="bottom3"><a class="open_window"href="#">Добавить платеж</a></div></b></div>
+        </td></tr>
+      <tr><td>2</td><td style="border-right:3px solid #d4d8df">02.16</td><td><span class="price">60000 &#8399;</span></td><td><span class="price">3440000 &#8399;</span></td><td><span class="price">10000 &#8399;</span></td><td><span class="price">30000 &#8399;</span></td><td><span class="price">40000 &#8399;</span></td><td>
+          <div id="parent2"><b><div class="bottom3"><a class="open_window"href="#">Добавить платеж</a></div></b></div>
+        </td></tr>
+      <tr><td>3</td><td style="border-right:3px solid #d4d8df">03.16</td><td><span class="price">90000 &#8399;</span></td><td><span class="price">3430000 &#8399;</span></td><td><span class="price">10000 &#8399;</span></td><td><span class="price">30000 &#8399;</span></td><td><span class="price">40000 &#8399;</span></td><td>
+          <div id="parent3"><b><div class="bottom3"><a class="open_window"href="#">Добавить платеж</a></div></b></div>
+        </td></tr>
+      <tr><td>4</td><td style="border-right:3px solid #d4d8df">04.16</td><td><span class="price">120000 &#8399;</span></td><td><span class="price">3420000 &#8399;</span></td><td><span class="price">10000 &#8399;</span></td><td><span class="price">30000 &#8399;</span></td><td><span class="price">40000 &#8399;</span></td><td>
+          <div id="parent4"><b><div class="bottom3"><a class="open_window"href="#">Добавить платеж</a></div></b></div>
+        </td></tr>
+    </table>
+  </div>
+  <div class="bottoms">
+    <div class="bottom1">Сохранить расчеты</div>
+    <div class="bottom2">Распечатать</div>
+  </div>
+
+<!--     POPUP-->
+  <div class="overlay" title="окно"></div>
+  <div class="popup">
+  <div class="close_window"></div>
+  <p>
+    <div id="modal_form">
+      <div class="popup_title">Сумма платежа</div>
+      <br />
+      <input type="text" name="payment" style="position: absolute;padding: 0px;top: 70px;left: 60px;width: 310px;height: 30px;text-align: center;background-color: #fafafe;color:#4097dc;border: 1px solid #d2d6dd;" value=""/>
+      <div class="popup_save"><input type="button" onclick="show_payment()" style="position: absolute;width: 150px;height: 50px;top: -10px;left: 20px;color:#fff;background-color:#4097dc;border-radius:60px;font-family:MullerBold;border:3px solid #fff;" value="Сохранить" /></p></div>
+    </div>
+  </div>
+<!-- FOOTER-->
+  <div class="footer">
+    <div class="copyright">	&#169; Ипотечный калькулятор. Любое копирование информации запрещено. <a href>Privacy</a></div>
+    <div class="social">
+        <div class="fb"></div>
+        <div class="vk"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "jobtask",
+  "version": "1.0.0",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "author": "EzraStas",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-clean-css": "^2.0.13",
+    "gulp-uglify": "^2.0.0"
+  } 
+}
