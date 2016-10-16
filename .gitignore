@@ -1,5 +1,5 @@
-/node_modules/gulp
-/node_modules/gulp-clean-css
-/node_modules/gulp-rename
-/node_modules/gulp-ugify
-/node_modules/pump
+/node_modules/gulp/node_modules
+/node_modules/gulp-clean-css/node_modules
+/node_modules/gulp-rname/node_modules
+/node_modules/gulp-ugify/node_modules
+/node_modules/pump/node_modules
